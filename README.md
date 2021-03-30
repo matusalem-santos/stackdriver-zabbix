@@ -82,6 +82,6 @@ Monitorar os serviços da GCP pelo Zabbix consultando a API do Stackdriver
 ``` 
 - Exemplo: 
 ```bash
-    /usr/lib/zabbix/externalscripts/stackdriver-zabbix.py 'dialog-western-union' 'cloudsql.googleapis.com/database/cpu/utilization' 'database_id' 'dialog-western-union:cm-dial-carrefour-prod-read-replica' 'double'
+    /usr/lib/zabbix/externalscripts/stackdriver-zabbix.py 'project-id' 'cloudsql.googleapis.com/database/cpu/utilization' 'database_id' 'project-id:db-prod-read-replica' 'double'
 ``` 
 
